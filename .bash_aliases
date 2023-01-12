@@ -12,3 +12,19 @@ alias calc="bc" # calculator
 alias cp="cp -i"
 alias mv='mv -i'
 alias rm='rm -i'
+# power
+alias shutdown="sudo shutdown -P now"
+alias reboot="sudo shutdown -r now"
+# misc
+alias ping='ping -c 5' # ping 5
+# get out of current directory
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+# date time
+alias now="date +"%T""
+alias nowtime=now
+alias nowdate="date +\"%d-%m-%Y\""
