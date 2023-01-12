@@ -28,3 +28,7 @@ alias .5='cd ../../../../..'
 alias now="date +"%T""
 alias nowtime=now
 alias nowdate="date +\"%d-%m-%Y\""
+# gentoo update
+alias update='sudo emerge --sync && emerge -uDN @world'
+alias depclean='emerge --ask --depclean'
+alias etcup='etc-update'
