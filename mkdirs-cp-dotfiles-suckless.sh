@@ -39,29 +39,6 @@ cp -r dwm/ dmenu/ st/ slock/ bar-dwm/ ~/.config/Suckless &
 sleep 2
 echo "cp suckless dirs - done!" &
 
-# install suckless
-echo "install suckless..." &
-cd ~/.config/Suckless/dwm/ &
-sudo make clean install &
-
-sleep 3
-
-cd ~/.config/Suckless/dmenu/ &
-sudo make clean install &
-
-sleep 3
-
-cd ~/.config/Suckless/st/ &
-sudo make clean install &
-
-sleep 3
-
-cd ~/.config/Suckless/slock/ &
-sudo make clean install &
-
-sleep 3
-echo "install suckless - done!" &
-
 # chmod bar
 echo "chmod bar-dwm..." &
 chmod +x ~/.config/Suckless/bar-dwm/bar_dwm.sh &
